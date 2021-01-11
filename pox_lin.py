@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: Lin Sinan
-# @Date:   2020-05-27 15:55:28
-# @Last Modified by:   lnan951
-# @Last Modified time: 2020-06-01 23:44:15
-
-from pox.core import core
-import pox.openflow.libopenflow_01 as of
-from pox.lib.util import dpid_to_str
-from pox.lib.packet import ethernet,ipv4,tcp
-from pox.lib.addresses import IPAddr, EthAddr
 #!/usr/bin/python
 # Copyright 2012 James McCauley
 #
@@ -23,6 +12,18 @@ from pox.lib.addresses import IPAddr, EthAddr
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+# -*- coding: utf-8 -*-
+# @Author: Lin Sinan
+# @Date:   2020-05-27 15:55:28
+# @Last Modified by:   lnan951
+# @Last Modified time: 2020-06-01 23:44:15
+
+from pox.core import core
+import pox.openflow.libopenflow_01 as of
+from pox.lib.util import dpid_to_str
+from pox.lib.packet import ethernet,ipv4,tcp
+from pox.lib.addresses import IPAddr, EthAddr
 
 """
 This component is for use with the OpenFlow tutorial.
